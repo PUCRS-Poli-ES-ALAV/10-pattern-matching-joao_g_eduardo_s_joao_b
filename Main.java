@@ -17,6 +17,9 @@ public class Main {
         System.out.println("\n----- Pattern Matching Rabin-Karp -----");
         procurarPadroesTextoRapin(sGigante, sGigantePadrao);
 
+        System.out.println("\n----- Pattern Matching KMPSearch ------");
+        procurarPadroesTextoKMP(sGigante, sGigantePadrao);
+
     }
 
     public static void procurarPadroesTexto(String texto, String padrao) {
@@ -29,6 +32,12 @@ public class Main {
         Algoritmos algoritmos = new Algoritmos();
         System.out.println("Posição: " + algoritmos.search(padrao, texto)); 
         System.out.println("Iterações: " + algoritmos.getIteracaoMatchingRabin());
+    }
+
+    public static void procurarPadroesTextoKMP(String texto, String padrao){
+        Algoritmos algoritmos = new Algoritmos();
+        algoritmos.KMPSearch(padrao, texto);
+        System.out.println("\nIterações: " + algoritmos.getIteracaoMatchingKMP());
     }
 
 }

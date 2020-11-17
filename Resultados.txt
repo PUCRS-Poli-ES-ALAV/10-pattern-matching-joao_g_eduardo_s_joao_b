@@ -7,5 +7,5 @@ Número 2
     Instruções: 
 
 Número 3
-    Complexidade no pior caso: 
+    Complexidade no pior caso: O(n).
     Instruções: 

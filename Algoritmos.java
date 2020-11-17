@@ -6,6 +6,7 @@ public class Algoritmos {
 
     private int iteracaoMatchingSimples;
     private int iteracaoMatchingRabin;
+    private int iteracaoMatchingKMP;
 
     public int getIteracaoMatchingRabin() {
         return iteracaoMatchingRabin;
@@ -13,6 +14,10 @@ public class Algoritmos {
 
     public int getIteracaoMatchingSimples() {
         return iteracaoMatchingSimples;
+    }
+
+    public int getIteracaoMatchingKMP() {
+        return iteracaoMatchingKMP;
     }
 
     // Pattern Matching Simples
@@ -80,6 +85,7 @@ public class Algoritmos {
 
         int i = 0; // index for txt[]
         while (i < N) {
+            iteracaoMatchingKMP++;
             if (pat.charAt(j) == txt.charAt(i)) {
                 j++;
                 i++;

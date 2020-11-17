@@ -1,0 +1,11 @@
+Número 1
+    Complexidade no pior caso: O(m*(n-m+1)).
+    Instruções: 
+
+Número 2
+    Complexidade no pior caso: O(log n).
+    Instruções: 
+
+Número 3
+    Complexidade no pior caso: 
+    Instruções: 

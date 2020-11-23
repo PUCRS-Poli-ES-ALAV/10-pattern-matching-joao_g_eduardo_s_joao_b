@@ -1,11 +1,11 @@
 Número 1
     Complexidade no pior caso: O(m*(n-m+1)).
-    Instruções: 
+    Instruções: 4 + 6(y-x) +5x
 
 Número 2
     Complexidade no pior caso: O(log n).
-    Instruções: 
+    Instruções:  11 + 7m + 16n-m + 7m(n-m)
 
 Número 3
     Complexidade no pior caso: O(n).
-    Instruções: 
+    Instruções: 9 + 19n + 10m
